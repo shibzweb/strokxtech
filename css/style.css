@@ -1,0 +1,173 @@
+:root {
+	--base-font-family:     'roboto', sans-serif;
+	--font-weight-bold:     bold;
+	--font-weight-normal:   normal;
+	--font-weight-light:    300;
+	--font-weight-thin:     100;
+  
+	--h1-font-size:         48px;
+	--h2-font-size:         36px;
+	--h3-font-size:         28px;
+	--h4-font-size:         24px;
+	--h5-font-size:         22px;
+	--h6-font-size:         22px;
+	--p-font-size:          18px;
+
+  }
+  
+  
+
+
+body {
+	font-family: 'roboto', sans-serif ;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+   
+}
+
+
+
+.contct{
+	background: url(../images/contct.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+
+}
+
+.gallery-inner {
+	text-align: center;
+	
+}
+.gallery-inner h3 p{
+	font-weight: 50px;
+	
+}
+
+#quote-h{
+background: url(../images/aeg.jpg) 0px 0px;
+background-size: cover;
+background-attachment: fixed;
+position: relative; 
+padding-top: 10px;
+padding-bottom: 5px;
+}
+
+
+.fields{
+	padding: 7px 0px 0px 7px;
+}
+.main-h{
+	text-align: center;
+	font-size: 33px;
+	font-weight: bolder;
+}
+
+.main-p{
+	text-align: center;
+	font-size: 15px;
+	
+	
+	
+}
+
+.navbar-dark{
+	background-color: black;
+}
+
+
+ 
+ .services {
+	margin-top: 100px;
+}
+
+.services .container-fluid {
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.services .col-md-4 {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.services .service-item {
+	margin-bottom: 3px;
+	background-color: black;
+	padding: 50px;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+.services .service-item .icon {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-bottom: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.5s;
+}
+
+.services .service-item {
+	background-color:#282828;
+}
+
+
+.services .service-item:hover {
+	background-color:  #659BDB;
+}
+.services .service-item:hover h4,
+.services .service-item:hover p {
+	color: #fff;
+}
+
+.services .service-item h4 {
+	margin-bottom: 20px;
+	transition: all 0.5s;
+}
+
+.services .service-item  p {
+	margin-bottom: 0px;
+	transition: all 0.5s;
+}
+
+.counter p{
+	font-size: large;
+}
+
+.page-footer{
+ background-color: black;
+}
+
+	.strkx-stats {
+		background: url(../images/g2.jpg) no-repeat center;
+		background-size: cover;
+		position: relative;
+		z-index: 1;
+		background-attachment: fixed; }
+		
+		.strkx-stats:before {
+		position: absolute;
+		content: '';
+		background: rgba(0, 0, 0, 0.7);
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+		z-index: -1; }
+
+
+		.strkx-stats h3{
+			font-weight: bolder ;
+		}
+		
+		
+		
+
+#kai{
+	width: fit-content;
+}
